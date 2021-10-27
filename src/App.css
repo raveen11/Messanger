@@ -318,6 +318,16 @@ footer {
   padding-right: 0px;
 }
 
+.text-title{
+  font-size: 16px;
+  font-weight: 700;
+  color: #0b2f83;
+}
+.sub-text{
+  color: #0b2f83;
+  font-size: 14px;
+}
+
 
 
 /*spinner css*/

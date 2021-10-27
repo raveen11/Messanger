@@ -9,15 +9,11 @@ const LeftMessage = ({user}) => {
                     {id}
                 </div>
                 <div className="msgBody">
-                {email}
-                <p>{name}</p>
-                <p>{gender}</p>
-                <p>{status==undefined?null:status}</p>
-
-                
-                
-                </div>
-              
+                <p className="sub-text"><span className="text-title">Name:</span>{name}</p>
+                <p className="sub-text"><span className="text-title">Email:</span>{email}</p>
+                <p className="sub-text"><span className="text-title">Gender:</span>{gender}</p>
+                <p className="sub-text"><span className="text-title">Status:</span>{status==undefined?null:status}</p>
+        	    </div>
 		</div>
         
         </div>
