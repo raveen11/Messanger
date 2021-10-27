@@ -1,0 +1,27 @@
+import React from 'react'
+
+const RightMessage = ({user}) => {
+    let {id,name,email,status,gender}=user
+
+    return (
+        <div>
+         <div className="message i">
+			
+			<div className="msgBody">
+                {email}
+                
+                <p>{name}</p>
+                <p>{gender}</p>
+                <p>{status==undefined?null:status}</p>
+
+        	</div>
+            <div className="msgHead" style={{marginLeft:10}}>
+				{id}
+            </div>
+		</div>
+
+        </div>
+    )
+}
+
+export default RightMessage
